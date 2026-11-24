@@ -274,6 +274,8 @@ app.get("/api/pdf", autenticar, async (req, res) => {
         });
     }
 });
+
+
  
 criarBanco()
     .then(() => {
